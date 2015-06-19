@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19B0F6C8634EEE90543F2DC2 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0F9D85E013CEDA90F4C5B /* Node.m */; };
+		19B0F8580854634E8E4C52B6 /* NodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0F024E2FB4B38685E2491 /* NodeSpec.m */; };
+		19B0F87024CFD505F9EF1711 /* AVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0FEEB64169DA881B8F414 /* AVLTree.m */; };
+		19B0F92EBE2FAB3567A906FF /* AVLTreeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0F21CA4632E5FFCD97AFA /* AVLTreeSpec.m */; };
 		3C650ECA1B33297300B5AD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650EC91B33297300B5AD6C /* main.m */; };
 		3C650ECD1B33297300B5AD6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650ECC1B33297300B5AD6C /* AppDelegate.m */; };
-		3C650ED01B33297300B5AD6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650ECF1B33297300B5AD6C /* ViewController.m */; };
-		3C650ED31B33297300B5AD6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C650ED11B33297300B5AD6C /* Main.storyboard */; };
 		3C650ED51B33297300B5AD6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C650ED41B33297300B5AD6C /* Images.xcassets */; };
-		3C650ED81B33297300B5AD6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C650ED61B33297300B5AD6C /* LaunchScreen.xib */; };
-		3C650EE41B33297300B5AD6C /* AVLTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650EE31B33297300B5AD6C /* AVLTreeTests.m */; };
+		8ABA2BEBEED9785A37CC5B32 /* Pods_AVLTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19B0F024E2FB4B38685E2491 /* NodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeSpec.m; sourceTree = "<group>"; };
+		19B0F21CA4632E5FFCD97AFA /* AVLTreeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTreeSpec.m; sourceTree = "<group>"; };
+		19B0F4028A81746E00D7C784 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		19B0F9973D5BFD89BE4B64AE /* AVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
+		19B0F9D85E013CEDA90F4C5B /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		19B0FEEB64169DA881B8F414 /* AVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTree.m; sourceTree = "<group>"; };
 		3C650EC41B33297300B5AD6C /* AVLTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVLTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C650EC81B33297300B5AD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C650EC91B33297300B5AD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C650ECB1B33297300B5AD6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C650ECC1B33297300B5AD6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C650ECE1B33297300B5AD6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C650ECF1B33297300B5AD6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3C650ED21B33297300B5AD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C650ED41B33297300B5AD6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3C650ED71B33297300B5AD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C650EDD1B33297300B5AD6C /* AVLTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVLTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C650EE21B33297300B5AD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C650EE31B33297300B5AD6C /* AVLTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVLTreeTests.m; sourceTree = "<group>"; };
+		88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVLTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree.release.xcconfig"; sourceTree = "<group>"; };
+		A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABA2BEBEED9785A37CC5B32 /* Pods_AVLTree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +66,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19B0F39F21EDBFD3993FBF93 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				19B0F4028A81746E00D7C784 /* Node.h */,
+				19B0F9D85E013CEDA90F4C5B /* Node.m */,
+				19B0F9973D5BFD89BE4B64AE /* AVLTree.h */,
+				19B0FEEB64169DA881B8F414 /* AVLTree.m */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		19B0FE47741F897B139CA195 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				19B0F024E2FB4B38685E2491 /* NodeSpec.m */,
+				19B0F21CA4632E5FFCD97AFA /* AVLTreeSpec.m */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
 		3C650EBB1B33297300B5AD6C = {
 			isa = PBXGroup;
 			children = (
 				3C650EC61B33297300B5AD6C /* AVLTree */,
 				3C650EE01B33297300B5AD6C /* AVLTreeTests */,
 				3C650EC51B33297300B5AD6C /* Products */,
+				A99E0FD45130348C49BE3E43 /* Pods */,
+				491297DB1CF26E8C032FE2B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +111,9 @@
 			children = (
 				3C650ECB1B33297300B5AD6C /* AppDelegate.h */,
 				3C650ECC1B33297300B5AD6C /* AppDelegate.m */,
-				3C650ECE1B33297300B5AD6C /* ViewController.h */,
-				3C650ECF1B33297300B5AD6C /* ViewController.m */,
-				3C650ED11B33297300B5AD6C /* Main.storyboard */,
 				3C650ED41B33297300B5AD6C /* Images.xcassets */,
-				3C650ED61B33297300B5AD6C /* LaunchScreen.xib */,
 				3C650EC71B33297300B5AD6C /* Supporting Files */,
+				19B0F39F21EDBFD3993FBF93 /* BinaryTree */,
 			);
 			path = AVLTree;
 			sourceTree = "<group>";
@@ -105,8 +130,8 @@
 		3C650EE01B33297300B5AD6C /* AVLTreeTests */ = {
 			isa = PBXGroup;
 			children = (
-				3C650EE31B33297300B5AD6C /* AVLTreeTests.m */,
 				3C650EE11B33297300B5AD6C /* Supporting Files */,
+				19B0FE47741F897B139CA195 /* BinaryTree */,
 			);
 			path = AVLTreeTests;
 			sourceTree = "<group>";
@@ -119,6 +144,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		491297DB1CF26E8C032FE2B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99E0FD45130348C49BE3E43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */,
+				A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C650EE71B33297300B5AD6C /* Build configuration list for PBXNativeTarget "AVLTree" */;
 			buildPhases = (
+				FF5116BF93FB3A7B9A8E97F4 /* Check Pods Manifest.lock */,
 				3C650EC01B33297300B5AD6C /* Sources */,
 				3C650EC11B33297300B5AD6C /* Frameworks */,
 				3C650EC21B33297300B5AD6C /* Resources */,
+				5E122A91E03CAD34D251F9DE /* Embed Pods Frameworks */,
+				B1EAA4538061C73B981764B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C650ED31B33297300B5AD6C /* Main.storyboard in Resources */,
-				3C650ED81B33297300B5AD6C /* LaunchScreen.xib in Resources */,
 				3C650ED51B33297300B5AD6C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +257,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E122A91E03CAD34D251F9DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1EAA4538061C73B981764B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5116BF93FB3A7B9A8E97F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C650EC01B33297300B5AD6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C650ED01B33297300B5AD6C /* ViewController.m in Sources */,
 				3C650ECD1B33297300B5AD6C /* AppDelegate.m in Sources */,
 				3C650ECA1B33297300B5AD6C /* main.m in Sources */,
+				19B0F6C8634EEE90543F2DC2 /* Node.m in Sources */,
+				19B0F87024CFD505F9EF1711 /* AVLTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C650EE41B33297300B5AD6C /* AVLTreeTests.m in Sources */,
+				19B0F8580854634E8E4C52B6 /* NodeSpec.m in Sources */,
+				19B0F92EBE2FAB3567A906FF /* AVLTreeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +335,6 @@
 			targetProxy = 3C650EDE1B33297300B5AD6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C650ED11B33297300B5AD6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C650ED21B33297300B5AD6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C650ED61B33297300B5AD6C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C650ED71B33297300B5AD6C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C650EE51B33297300B5AD6C /* Debug */ = {
@@ -347,6 +421,7 @@
 		};
 		3C650EE81B33297300B5AD6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVLTree/Info.plist;
@@ -357,6 +432,7 @@
 		};
 		3C650EE91B33297300B5AD6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVLTree/Info.plist;
@@ -418,6 +494,7 @@
 				3C650EE91B33297300B5AD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C650EEA1B33297300B5AD6C /* Build configuration list for PBXNativeTarget "AVLTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +503,7 @@
 				3C650EEC1B33297300B5AD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
