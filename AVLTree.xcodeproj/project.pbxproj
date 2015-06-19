@@ -14,7 +14,9 @@
 		3C650ECA1B33297300B5AD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650EC91B33297300B5AD6C /* main.m */; };
 		3C650ECD1B33297300B5AD6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C650ECC1B33297300B5AD6C /* AppDelegate.m */; };
 		3C650ED51B33297300B5AD6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C650ED41B33297300B5AD6C /* Images.xcassets */; };
-		8ABA2BEBEED9785A37CC5B32 /* Pods_AVLTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3CDB33931B33EE9600D5B22F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB33921B33EE9600D5B22F /* File.swift */; };
+		3CDB33961B33EED800D5B22F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB33951B33EED800D5B22F /* File.swift */; };
+		D67C78A2F2822DFECB0CD3AE /* Pods_AVLTreeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5458D0E7A7CA3CF9D9D0787 /* Pods_AVLTreeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +44,14 @@
 		3C650ED41B33297300B5AD6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C650EDD1B33297300B5AD6C /* AVLTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVLTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C650EE21B33297300B5AD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDB33911B33EE9500D5B22F /* AVLTree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVLTree-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CDB33921B33EE9600D5B22F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3CDB33941B33EED700D5B22F /* AVLTreeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVLTreeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CDB33951B33EED800D5B22F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVLTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree.release.xcconfig"; sourceTree = "<group>"; };
-		A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree.debug.xcconfig"; sourceTree = "<group>"; };
+		B80177E4B12CBEB7FF24BB58 /* Pods-AVLTreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTreeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTreeTests/Pods-AVLTreeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C380EB01E2B1A3104C76E93D /* Pods-AVLTreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVLTreeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVLTreeTests/Pods-AVLTreeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5458D0E7A7CA3CF9D9D0787 /* Pods_AVLTreeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVLTreeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ABA2BEBEED9785A37CC5B32 /* Pods_AVLTree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67C78A2F2822DFECB0CD3AE /* Pods_AVLTreeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +121,8 @@
 				3C650ED41B33297300B5AD6C /* Images.xcassets */,
 				3C650EC71B33297300B5AD6C /* Supporting Files */,
 				19B0F39F21EDBFD3993FBF93 /* BinaryTree */,
+				3CDB33921B33EE9600D5B22F /* File.swift */,
+				3CDB33911B33EE9500D5B22F /* AVLTree-Bridging-Header.h */,
 			);
 			path = AVLTree;
 			sourceTree = "<group>";
@@ -132,6 +141,8 @@
 			children = (
 				3C650EE11B33297300B5AD6C /* Supporting Files */,
 				19B0FE47741F897B139CA195 /* BinaryTree */,
+				3CDB33951B33EED800D5B22F /* File.swift */,
+				3CDB33941B33EED700D5B22F /* AVLTreeTests-Bridging-Header.h */,
 			);
 			path = AVLTreeTests;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				88F61F573DA6FC302C610E8F /* Pods_AVLTree.framework */,
+				C5458D0E7A7CA3CF9D9D0787 /* Pods_AVLTreeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,8 +167,8 @@
 		A99E0FD45130348C49BE3E43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */,
-				A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */,
+				B80177E4B12CBEB7FF24BB58 /* Pods-AVLTreeTests.debug.xcconfig */,
+				C380EB01E2B1A3104C76E93D /* Pods-AVLTreeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -168,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C650EE71B33297300B5AD6C /* Build configuration list for PBXNativeTarget "AVLTree" */;
 			buildPhases = (
-				FF5116BF93FB3A7B9A8E97F4 /* Check Pods Manifest.lock */,
 				3C650EC01B33297300B5AD6C /* Sources */,
 				3C650EC11B33297300B5AD6C /* Frameworks */,
 				3C650EC21B33297300B5AD6C /* Resources */,
-				5E122A91E03CAD34D251F9DE /* Embed Pods Frameworks */,
-				B1EAA4538061C73B981764B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C650EEA1B33297300B5AD6C /* Build configuration list for PBXNativeTarget "AVLTreeTests" */;
 			buildPhases = (
+				650AB4F8DEAED02BADB4165C /* Check Pods Manifest.lock */,
 				3C650ED91B33297300B5AD6C /* Sources */,
 				3C650EDA1B33297300B5AD6C /* Frameworks */,
 				3C650EDB1B33297300B5AD6C /* Resources */,
+				FCB3C434C3964BC565F031E9 /* Embed Pods Frameworks */,
+				0DBCD46F7E36F47E4D14C14A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,22 +270,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5E122A91E03CAD34D251F9DE /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1EAA4538061C73B981764B0 /* Copy Pods Resources */ = {
+		0DBCD46F7E36F47E4D14C14A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,10 +282,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTree/Pods-AVLTree-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTreeTests/Pods-AVLTreeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF5116BF93FB3A7B9A8E97F4 /* Check Pods Manifest.lock */ = {
+		650AB4F8DEAED02BADB4165C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,6 +300,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FCB3C434C3964BC565F031E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVLTreeTests/Pods-AVLTreeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDB33931B33EE9600D5B22F /* File.swift in Sources */,
 				3C650ECD1B33297300B5AD6C /* AppDelegate.m in Sources */,
 				3C650ECA1B33297300B5AD6C /* main.m in Sources */,
 				19B0F6C8634EEE90543F2DC2 /* Node.m in Sources */,
@@ -322,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19B0F8580854634E8E4C52B6 /* NodeSpec.m in Sources */,
+				3CDB33961B33EED800D5B22F /* File.swift in Sources */,
 				19B0F92EBE2FAB3567A906FF /* AVLTreeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,30 +435,35 @@
 		};
 		3C650EE81B33297300B5AD6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A34B82F99C4B05839E9A25A7 /* Pods-AVLTree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AVLTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLTree/AVLTree-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3C650EE91B33297300B5AD6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0F5BCB04A73C2D73274E034 /* Pods-AVLTree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AVLTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLTree/AVLTree-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		3C650EEB1B33297300B5AD6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80177E4B12CBEB7FF24BB58 /* Pods-AVLTreeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -456,14 +475,18 @@
 				INFOPLIST_FILE = AVLTreeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLTreeTests/AVLTreeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVLTree.app/AVLTree";
 			};
 			name = Debug;
 		};
 		3C650EEC1B33297300B5AD6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C380EB01E2B1A3104C76E93D /* Pods-AVLTreeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -471,6 +494,7 @@
 				INFOPLIST_FILE = AVLTreeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLTreeTests/AVLTreeTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVLTree.app/AVLTree";
 			};
 			name = Release;
